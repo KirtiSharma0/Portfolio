@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+// import {RiCloseLine,RiMenu2lLine} from "@remixicon/react";
 
 const Navbar = () => {
 
@@ -29,11 +29,18 @@ const Navbar = () => {
         </li>
         </a>
       </ul>
-      {showmenu?(
-        <
+      {showmenu ? (
+        <RiMenu2lLine size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" 
+        onclick={()=>{
+          openmenu(!menu);
+          setshowmenu(!showmenu);
+      }}
+      />
+      ) : (
+        <RiCloseLine size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300"/>
       )}
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;
