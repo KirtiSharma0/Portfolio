@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-// import {RiCloseLine,RiMenu2lLine} from "@remixicon/react";
+import {GiHamburgerMenu} from 'react-icons/gi';
+import {IoMdClose} from 'react-icons/io';
 
 const Navbar = () => {
 
-//  const[menu,openmenu] = useState(false);
-//  const[showmenu,setshowmenu] = useState(true);
+  let[menu,openmenu] = useState(false);
+  let[showmenu,setshowmenu] = useState(true);
 
   return (
     <nav className= "flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
@@ -29,16 +30,16 @@ const Navbar = () => {
         </li>
         </a>
       </ul>
-      {/* {showmenu ? (
-        <RiMenu2lLine size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" 
-        onclick={()=>{
+      {showmenu ? (
+        <GiHamburgerMenu size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" 
+        onClick={()=>{
           openmenu(!menu);
           setshowmenu(!showmenu);
       }}
       />
       ) : (
-        <RiCloseLine size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300"/>
-      )} */}
+        <IoMdClose size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300"/>
+      )}
     </nav>
   );
 };
