@@ -28,29 +28,27 @@ const Experience = () => {
              <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
                 <SiMongodb color="#47A248" size={50}/>
              </span>
-             <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
-                <SiRedis color="#FF4438" size={50}/>
-             </span>
+              
             </div>
 
 <div>
-            <div className='flex gap-10 bg-slate-700 bg-opacity-45 mt-4 rounded-lg p-4 items-center'> 
+            <div className='flex gap-10 bg-slate-800 bg-opacity-45 mt-4 rounded-lg p-4 items-center'> 
             <span className='text-white '> 
-                <h2 className='leading-tight'>Web Developer Intern at SkillCraft Technology (Remote) </h2>
+                <h2 className='leading-tight font-bold text-yellow-200'>Web Developer Intern at SkillCraft Technology (Remote) </h2>
                 <p className='text-sm leading-tight font-thin'>June,2024 to July,2024</p>
                 <ul className='text-sm p-2'> <li> -Worked as Frontend developer</li></ul>
             </span>
             </div>
-            <div className='flex gap-10 bg-slate-700 bg-opacity-45 mt-4 rounded-lg p-4 items-center'> 
+            <div className='flex gap-10 bg-slate-800 bg-opacity-45 mt-4 rounded-lg p-4 items-center'> 
             <span className='text-white '> 
-                <h2 className='leading-tight'>Graphic Design Intern at MREI (On-site) </h2>
+                <h2 className='leading-tight font-bold text-yellow-200'>Graphic Design Intern at MREI (On-site) </h2>
                 <p className='text-sm leading-tight font-thin'>September,2024 to December,2024</p>
                 <ul className='text-sm p-2'> <li> -Worked as web designer,graphics and banners designing</li></ul>
             </span>
             </div>
-            <div className='flex gap-10 bg-slate-700 bg-opacity-45 mt-4 rounded-lg p-4 items-center'> 
+            <div className='flex gap-10 bg-slate-800 bg-opacity-45 mt-4 rounded-lg p-4 items-center'> 
             <span className='text-white '> 
-                <h2 className='leading-tight'>Operation Executive Intern at Dfree Novelish (Remote) </h2>
+                <h2 className='leading-tight font-bold text-yellow-200'>Operation Executive Intern at Dfree Novelish (Remote) </h2>
                 <p className='text-sm leading-tight font-thin'>June,2025 to present</p>
                 <ul className='text-sm p-2'> <li> -currently working as software developer ,social media management</li></ul>
             </span>
