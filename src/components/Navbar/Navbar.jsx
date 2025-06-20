@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
 
- const[menu,openmenu] = useState(false);
- const[showmenu,setshowmenu] = useState(true);
+//  const[menu,openmenu] = useState(false);
+//  const[showmenu,setshowmenu] = useState(true);
 
   return (
     <nav className= "flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         </a>
       </ul>
-      {showmenu ? (
+      {/* {showmenu ? (
         <RiMenu2lLine size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" 
         onclick={()=>{
           openmenu(!menu);
@@ -38,7 +38,7 @@ const Navbar = () => {
       />
       ) : (
         <RiCloseLine size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300"/>
-      )}
+      )} */}
     </nav>
   );
 };

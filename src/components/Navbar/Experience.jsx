@@ -1,8 +1,8 @@
 import React from 'react'
-import {FaCss3,FaFigma,FaHtml5,FaJs,FaReact} from "react-icons/fa";
-import{SiRadis} from "react-icons/si";
-import{FaGoogle} from "react-icons/si";
-import{SiMongodb} from "react-icons/si";
+// import {FaCss3,FaFigma,FaHtml5,FaJs,FaReact} from "react-icons/fa";
+// import{SiRadis} from "react-icons/si";
+// import{FaGoogle} from "react-icons/si";
+// import{SiMongodb} from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -10,7 +10,7 @@ const Experience = () => {
         <h1 className='text-2xl md:text-4xl text-white font-bold'>Experience</h1>
         <div className='flex flex-wrap items-center justify-around'>
             <div className='flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10'>
-             <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
+             {/* <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
                 <FaHtml5 colors="#E34F26" size={50}/>
              </span>
              <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
@@ -30,7 +30,7 @@ const Experience = () => {
              </span>
              <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
                 <SiRadis colors="#FF4438" size={50}/>
-             </span>
+             </span> */}
             </div>
 
 <div>
